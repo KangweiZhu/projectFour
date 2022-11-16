@@ -7,6 +7,7 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.util.ArrayList;
 
 /**
  * The main method will create a scene, build the Scene Graph and initialise the Controller of a JavaFX View.

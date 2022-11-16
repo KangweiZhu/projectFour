@@ -17,9 +17,4 @@ public enum Topping {
     Topping(String toppingName){
         this.toppingName = toppingName;
     }
-
-    private Topping[] getPresetToppings(){
-        return Topping.values();
-    }
-
 }
