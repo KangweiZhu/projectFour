@@ -8,6 +8,11 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
+/**
+ * The main method will create a scene, build the Scene Graph and initialise the Controller of a JavaFX View.
+ *
+ * @author Michael Israel, Kangwei Zhu
+ */
 public class Main extends Application {
     /**
      * Default constructor
@@ -35,14 +40,14 @@ public class Main extends Application {
         FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("MainView.fxml"));
         Scene scene;
         Parent root;
-        try{
+        try {
             root = fxmlLoader.load();
             scene = new Scene(root);
             stage.setTitle("RU Pizza");
             stage.setResizable(false);
             stage.setScene(scene);
             stage.show();
-        } catch (IOException e){
+        } catch (IOException e) {
             System.out.println("Warning: Cannot show the stage!");
             e.printStackTrace();
         }
