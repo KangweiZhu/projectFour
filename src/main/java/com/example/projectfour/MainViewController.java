@@ -1,2 +1,4 @@
-package com.example.projectfour;public class MainViewController {
+package com.example.projectfour;
+
+public class MainViewController {
 }
