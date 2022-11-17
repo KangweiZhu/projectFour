@@ -31,10 +31,9 @@ public class ChicagoStylePizzaOrderingController implements Initializable {
     @FXML
     private Button remove;
 
-
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        ObservableList<String> items = FXCollections.observableArrayList("Deluxe","BBQ Chicken","Meatzza","Build " +
+        ObservableList<String> items = FXCollections.observableArrayList("Deluxe", "BBQ Chicken", "Meatzza", "Build " +
                 "Your Own");
         chicagoPizzaOptions.setItems(items);
         chicagoPizzaOptions.getSelectionModel().select(3);

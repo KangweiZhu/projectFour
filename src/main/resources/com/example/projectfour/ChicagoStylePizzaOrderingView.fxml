@@ -14,15 +14,15 @@
 <?import javafx.scene.text.Text?>
 
 
-<AnchorPane prefHeight="472.0" prefWidth="642.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projectfour.ChicagoStylePizzaOrderingController">
+<AnchorPane prefHeight="501.0" prefWidth="681.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projectfour.ChicagoStylePizzaOrderingController">
    <children>
-      <Text layoutX="194.0" layoutY="54.0" strokeWidth="0.0" text="Chicago Style Pizza" textAlignment="JUSTIFY" wrappingWidth="199.62890625">
+      <Text layoutX="210.0" layoutY="31.0" strokeWidth="0.0" text="Chicago Style Pizza" textAlignment="JUSTIFY" wrappingWidth="326.62890625">
          <font>
             <Font size="23.0" />
          </font>
       </Text>
       <ComboBox fx:id="chicagoPizzaOptions" layoutX="10.0" layoutY="82.0" prefHeight="26.0" prefWidth="200.0" />
-      <HBox layoutX="10.0" layoutY="119.0" prefHeight="40.0" prefWidth="200.0" spacing="5.0">
+      <HBox layoutX="10.0" layoutY="119.0" prefHeight="40.0" prefWidth="262.0" spacing="10.0">
          <children>
             <RadioButton fx:id="small" mnemonicParsing="false" text="small">
                <toggleGroup>
@@ -30,7 +30,7 @@
                </toggleGroup>
             </RadioButton>
             <RadioButton fx:id="medium" mnemonicParsing="false" text="medium" toggleGroup="$size" />
-            <RadioButton fx:id="large" mnemonicParsing="false" prefHeight="18.0" prefWidth="60.0" text="large" toggleGroup="$size" />
+            <RadioButton fx:id="large" mnemonicParsing="false" prefHeight="18.0" prefWidth="59.0" text="large" toggleGroup="$size" />
          </children>
       </HBox>
       <Text layoutX="14.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Crust" />
@@ -44,7 +44,7 @@
       <ListView fx:id="selectedToppings" layoutX="382.0" layoutY="229.0" prefHeight="171.0" prefWidth="192.0" />
       <Text layoutX="382.0" layoutY="225.0" strokeType="OUTSIDE" strokeWidth="0.0" text="selected Toppings" />
       <Button layoutX="451.0" layoutY="418.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="123.0" text="Add to Order" />
-      <ImageView fitHeight="118.0" fitWidth="154.0" layoutX="382.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="118.0" fitWidth="154.0" layoutX="464.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@SFS_chicago_deep_dish_pizza-16_cehf9d.jpg" />
          </image>
