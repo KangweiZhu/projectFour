@@ -3,15 +3,22 @@ package com.example.projectfour;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.net.URL;
+import java.util.ResourceBundle;
 
-public class MainViewController {
+public class MainViewController implements Initializable {
     @FXML
-    void clickChicagoStyle(ActionEvent event){
+    private TextField billboard;
+
+    @FXML
+    void clickChicagoStyle(ActionEvent event) {
         Stage stage = new Stage();
         FXMLLoader fxmlLoader = new FXMLLoader(MainViewController.class.getResource("ChicagoStylePizzaOrdering" +
                 "View.fxml"));
@@ -30,7 +37,7 @@ public class MainViewController {
     }
 
     @FXML
-    void clickNYStyle(ActionEvent event){
+    void clickNYStyle(ActionEvent event) {
         Stage stage = new Stage();
         FXMLLoader fxmlLoader = new FXMLLoader(MainViewController.class.getResource("ChicagoStylePizzaOrdering" +
                 "View.fxml"));
@@ -40,7 +47,7 @@ public class MainViewController {
             root = fxmlLoader.load();
             scene = new Scene(root);
             stage.setResizable(false);
-            stage.setTitle("Chicago Style Pizza");
+            stage.setTitle("New York Style Pizza");
             stage.setScene(scene);
             stage.show();
         } catch (IOException e) {
@@ -49,7 +56,7 @@ public class MainViewController {
     }
 
     @FXML
-    void clickChicagoStyle(ActionEvent event){
+    void clickStoreOrders(ActionEvent event) {
         Stage stage = new Stage();
         FXMLLoader fxmlLoader = new FXMLLoader(MainViewController.class.getResource("ChicagoStylePizzaOrdering" +
                 "View.fxml"));
@@ -59,7 +66,7 @@ public class MainViewController {
             root = fxmlLoader.load();
             scene = new Scene(root);
             stage.setResizable(false);
-            stage.setTitle("Chicago Style Pizza");
+            stage.setTitle("Store Orders");
             stage.setScene(scene);
             stage.show();
         } catch (IOException e) {
@@ -68,7 +75,7 @@ public class MainViewController {
     }
 
     @FXML
-    void clickChicagoStyle(ActionEvent event){
+    void clickCurrentOrder(ActionEvent event) {
         Stage stage = new Stage();
         FXMLLoader fxmlLoader = new FXMLLoader(MainViewController.class.getResource("ChicagoStylePizzaOrdering" +
                 "View.fxml"));
@@ -78,11 +85,16 @@ public class MainViewController {
             root = fxmlLoader.load();
             scene = new Scene(root);
             stage.setResizable(false);
-            stage.setTitle("Chicago Style Pizza");
+            stage.setTitle("Order Detail");
             stage.setScene(scene);
             stage.show();
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    @Override
+    public void initialize(URL url, ResourceBundle resourceBundle) {
+        billboard.setEditable(false);
     }
 }

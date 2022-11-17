@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="027cba65-9ed4-4ed8-9335-460ab29173ad" name="Changes" comment="images added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projectfour/ChicagoStylePizzaOrderingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/projectfour/ChicagoStylePizzaOrderingView.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projectfour/ChicagoStylePizzaOrderingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projectfour/ChicagoStylePizzaOrderingController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projectfour/MainViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projectfour/MainViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/projectfour/ChicagoStylePizzaOrderingView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/projectfour/ChicagoStylePizzaOrderingView.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/projectfour/MainView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/projectfour/MainView.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,19 +39,19 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/anicaa/IdeaProjects/projectFour/src/main/resources/com/example/projectfour",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/anicaa/IdeaProjects/projectFour/src/main/resources/com/example/projectfour&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/com/example/projectfour" />
@@ -88,6 +88,9 @@
       <workItem from="1668544684931" duration="4832000" />
       <workItem from="1668620747407" duration="1121000" />
       <workItem from="1668622030173" duration="9966000" />
+      <workItem from="1668699145823" duration="672000" />
+      <workItem from="1668714173459" duration="843000" />
+      <workItem from="1668717603113" duration="4290000" />
     </task>
     <task id="LOCAL-00001" summary="project skeleton done.">
       <created>1668636715389</created>
